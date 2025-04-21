@@ -1,14 +1,43 @@
-# React + Vite
+# 📝 Account Creation and Login Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a mini project built with **React.js** that simulates a simple user **registration and login** process with **page navigation** using **React Router**.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Account creation form with the following fields:
+  - Full Name
+  - Email
+  - Mobile Phone
+  - Password
+- ✅ Input validation (e.g., required fields, valid email format, numeric phone number)
+- ✅ Basic login form using email and password
+- ✅ Page navigation between Sign Up and Login
+- ✅ Visual feedback for successful submission and validation errors
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- React Router DOM (for page navigation)
+- useState (React Hook for managing form state)
+- CSS (for styling)
 
-# React-Projects
+## 📷 Preview
+
+ ![Preview of the form](./assets/react-form.png)
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/diasmurillo/React-Projects.git
+
+# Navigate into the project folder
+cd React-Projects
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
