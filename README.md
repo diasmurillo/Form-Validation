@@ -23,7 +23,7 @@ This is a mini project built with **React.js** that simulates a simple user **re
 
 ## 📷 Preview
 
- ![Preview of the form](./assets/react-form.png)
+ ![Preview of the form](./src/assets/react-form.png)
 
 ## 🚀 Getting Started
 
